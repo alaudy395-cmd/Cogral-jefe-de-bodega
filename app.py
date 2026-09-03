@@ -1,4 +1,6 @@
 import streamlit as st
+st.sidebar.image("jefa.png", width=200)
+st.sidebar.markdown("**👷‍♀️ Tatiana - Jefa de Bodega**")
 import pandas as pd
 from datetime import date
 st.set_page_config(page_title="COGRAL - Bodega", layout="wide")
