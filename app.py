@@ -96,7 +96,6 @@ if not st.session_state.login:
                 st.session_state.nombre=USUARIOS[u]["nombre"]
                 st.rerun()
             else: st.error("Usuario o clave mala")
-        st.info("tatiana/cogral2026 | secretaria/secre123 | auxiliar/aux123 | conductor/cond123 | miron/miron123")
     st.stop()
 
 rol=st.session_state.rol; nombre=st.session_state.nombre
